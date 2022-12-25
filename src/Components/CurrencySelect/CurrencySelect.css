@@ -1,0 +1,23 @@
+.currencySelect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 150px;
+  margin: 20px auto 0;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.currencySelect__value {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.currencySelect__btn {
+  height: 37px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}

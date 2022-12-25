@@ -1,0 +1,25 @@
+.theme {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background-color: rgb(168, 255, 245);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 3px 43px 0px rgba(34, 60, 80, 0.27);
+  cursor: pointer;
+  border: none;
+}
+
+.theme:active {
+  transform: translateY(3px);
+  box-shadow: 0px 3px 30px 0px rgba(34, 60, 80, 0.27);
+}
+
+.theme span {
+  margin-left: 10px;
+}

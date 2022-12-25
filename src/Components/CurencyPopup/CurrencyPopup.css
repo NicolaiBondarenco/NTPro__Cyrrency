@@ -1,0 +1,22 @@
+.currencyPopup__active {
+  position: absolute;
+  top: 43px;
+  left: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 2px 3px 13px 3px rgb(34 60 80 / 20%);
+  background-color: #fff;
+}
+
+.currencyPopup {
+  display: none;
+}
+
+.currencyPopup__name {
+  margin: 10px;
+}
+
+.currencyPopup__name:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}

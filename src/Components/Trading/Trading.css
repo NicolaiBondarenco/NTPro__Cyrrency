@@ -1,0 +1,11 @@
+.trading {
+  position: relative;
+  padding: 20px 0;
+}
+
+.trading__inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  margin: 20px auto 0;
+}

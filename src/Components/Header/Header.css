@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+}
+
+.header__trading-active {
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__trading {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__archive-active {
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #bdbdbd;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__archive {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.header__block {
+  min-height: 100%;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+}
